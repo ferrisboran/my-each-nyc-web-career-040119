@@ -5,3 +5,7 @@ def my_each(array)
     i = i + 1
   end
 end
+
+my_each(array) do |x|
+  return x
+end
