@@ -7,5 +7,5 @@ def my_each(array)
 end
 
 my_each(array) do |num|
-  puts i 
+  return i 
 end
